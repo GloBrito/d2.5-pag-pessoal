@@ -10,3 +10,23 @@ body{
     padding: 50px;
     border-radius: 10px;
 }
+
+.cabecalho{
+    text-align: center;
+    color: #ffffff;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.logo img{
+    width: 220px;
+}
+
+.navegacao li{
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform:uppercase;
+    
+
+}
