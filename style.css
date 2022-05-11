@@ -1,7 +1,7 @@
 .background{
     background-color: #2e2d4c;
     background-image: url(img/background-foods-v4.png);
-    /* padding: 2px; */
+    background-attachment: fixed;
 }
 
 
