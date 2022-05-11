@@ -34,17 +34,27 @@ body{
     width: 220px;
 }
 
-.navegacao li{
+.navegacao a{
     display: inline-block;
     width: 150px;
     font-size: 1.2rem;
     text-transform:uppercase;
+    color: #c0bcc9;
+    text-align: center;
+}
+
+.navegacao{
+    
+
 }
 
 .navigation li a:link,
 .navigation li a:visited{
     color: gray;
     text-decoration: underline;
+    width: 280px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 .navigation li a:hover{
@@ -110,4 +120,12 @@ accent-color: #2e2d4c;
     padding: 120px;
     color: #fff;
     text-align: center;
+}
+
+.fonte-contato{
+    font-size: large;
+    font-size: 1.9rem;
+
+    
+
 }
