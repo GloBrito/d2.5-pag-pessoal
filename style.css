@@ -1,3 +1,8 @@
+body{
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
 .background{
     background-color: #2e2d4c;
     background-image: url(img/background-foods-v4.png);
@@ -11,7 +16,12 @@
     background-color: #ffffff;
     padding: 50px;
     border-radius: 10px;
+    max-width: 940px;
+    color:#4d3c64;
+    line-height: 3rem;
+    font-family: "Lora", serif;
 }
+
 
 .cabecalho{
     text-align: center;
@@ -52,17 +62,28 @@
     float:left;
     width: 140px;
     padding: 20px;
+    font-family: "Lora", serif;
 }
 
 .fonte-media{
     font-size: 1.7rem;
-
+    font-family: "Lora", serif;
 }
 
 .titulo{
     font-size: 1.9rem;
     margin-top: 50px;
+    font-family:'Exo 2', sans-serif;
+
 }
+
+.titulo-fonte{
+    font-family:'Exo 2', sans-serif;
+    font-size: 1.9rem;
+    
+}
+
+
 
 .habilidades label{
 width: 280px;
@@ -73,3 +94,20 @@ display: inline-block;
 accent-color: #2e2d4c;
 }
 
+.fotos img{
+    width: 400px;
+    height: 240px;
+    filter: grayscale(0.4);
+}
+
+.fotos img:hover{
+    filter: none;
+}
+
+.final{
+    background-color: #1b1a2f;
+    position: relative;
+    padding: 120px;
+    color: #fff;
+    text-align: center;
+}
