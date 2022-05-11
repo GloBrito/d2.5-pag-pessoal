@@ -1,5 +1,7 @@
-body{
+.background{
     background-color: #2e2d4c;
+    background-image: url(img/background-foods-v4.png);
+    /* padding: 2px; */
 }
 
 
@@ -14,7 +16,7 @@ body{
 .cabecalho{
     text-align: center;
     color: #ffffff;
-    margin: 100px auto;
+    margin: auto;
     padding: 30px;
 }
 
@@ -33,4 +35,32 @@ body{
 .navigation li a:visited{
     color: gray;
     text-decoration: underline;
+}
+
+.navigation li a:hover{
+    color: #494848;
+    text-decoration: underline
+}
+
+.navigation li a:active{
+    color: #100d66;
+    text-decoration: underline;
+
+}
+
+.conteudo img{
+    float:left;
+    width: 140px;
+    padding: 20px;
+}
+
+.fonte-media{
+    font-size: 1.7rem;
+
+}
+
+.titulo{
+    font-size: 1.9rem;
+    margin-top: 50px;
+
 }
