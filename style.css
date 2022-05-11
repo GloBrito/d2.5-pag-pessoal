@@ -27,6 +27,10 @@ body{
     width: 150px;
     font-size: 1.2rem;
     text-transform:uppercase;
-    
+}
 
+.navigation li a:link,
+.navigation li a:visited{
+    color: gray;
+    text-decoration: underline;
 }
