@@ -30,7 +30,7 @@
             <li><a href="#portifolio">Portifólio</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
-        <div><img src="img/RogerAvatar2022-6.png" alt=""></div>
+        <div><img class="avatar" src="img/RogerAvatar2022-6.png" alt=""></div>
     
         <div>
             <p class="fonte-media">Olá, sou o Roger e eu acredito na alimentação saudável para uma melhor qualidade de vida! Comecei a cozinhar com 18 anos, quando saí de casa para fazer faculdade em outra cidade.</p>
@@ -55,7 +55,7 @@
         </div>
             
         <div>
-            <h3 id=portifolio>Portfólio</h3>
+            <h3 class="titulo" id=portifolio>Portfólio</h3>
             
             <img src="https://i.pinimg.com/564x/42/1c/f6/421cf633a225f8ce896456d757b38218.jpg" alt="">
             <img src="https://i.pinimg.com/564x/a3/cb/e3/a3cbe3639c1f8ed1e5136c3834d1be75.jpg" alt="">
@@ -63,21 +63,41 @@
             <img src="https://i.pinimg.com/564x/9b/d6/1f/9bd61f267ba64e482c68a2a9599ddf50.jpg" alt="">
         </div>
     
-        <div>
-            <h3 id=contato>Contato</h3>
-            <p>+55 12 991 000 999</p>
-            <p>+55 12 991 000 999</p>
-            <p>chef@roger.br</p>
-            <p>https://roger.br</p>
-        </div>
-    
-        <div>
-        <h4>Habilidades</h4>
-        <p>Cozinha Italiana</p><progress value="5" max="10"></progress>
-        <p>Cozinha Tailandesa</p><progress value="4" max="10"></progress>
-        <p>Cozinha Indiana</p><progress value="2" max="10"></progress>
-        <p>Pães e Fermentação</p><progress value="8" max="10"></progress>
-        </div>
+        
+        <h3 class="titulo" id=contato>Contato</h3>
+        <p><i class="fas fa-phone-alt pr4"></i> +55 12 991 000 999</p>
+        <p><i class="fab fa-whatsapp pr4"></i>+55 12 991 000 999</p>
+        <p><i class="far fa-envelope-open pr4"></i>chef@roger.br</p>
+        <p><i class="fas fa-globe pr4" ></i>https://roger.br</p>
+
+        
+        <h3 class="titulo" class="titulo titulo-fonte" id="habilidades">
+            Habilidades
+        </h3>
+
+        <div class="habilidades">
+
+        <p class="fonte-media">
+            <label for="porgress-bar-1">Cozinha Italiana</label>
+            <progress id="progress-bar-1" value="8" max="10"></progress>
+        </p>
+        
+        
+        <p class="fonte-media">
+            <label for="progress-bar-2">Cozinha Tailandesa</label>
+            <progress value="6" max="10"></progress>
+        </p> 
+
+        <p class="fonte-media">
+            <label for="progress-bar-3">Cozinha Indiana</label>
+            <progress value="4" max="10"></progress>
+        </p>
+
+        <p class="fonte-media">
+            <label for="progress-bar-4">Pães e Fermentação</label>
+            <progress value="9" max="10"></progress>
+        </p>
+      </div>
     
     </div>
     

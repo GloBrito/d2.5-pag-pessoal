@@ -48,7 +48,7 @@
 
 }
 
-.conteudo img{
+.container img{
     float:left;
     width: 140px;
     padding: 20px;
@@ -62,5 +62,14 @@
 .titulo{
     font-size: 1.9rem;
     margin-top: 50px;
-
 }
+
+.habilidades label{
+width: 280px;
+display: inline-block;
+}
+
+.habilidades progress{
+accent-color: #2e2d4c;
+}
+
